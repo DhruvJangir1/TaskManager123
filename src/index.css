@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+/* Smooth transitions and better mobile touch targets */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure buttons are accessible on mobile */
+button {
+  min-height: 44px;
+  min-width: 44px;
+  cursor:pointer
+}
