@@ -9,7 +9,6 @@ import { SettingsModal } from './ContextTasks/SettingsModal';
 import { storage } from './ContextTasks/storage';
 import type { Task,ReminderSettings, TaskContext, AppView } from './ContextTasks/types';
 
-// cd "C:/Users/User/react project/my-react-app"
 function App() {
   const [view, setView] = useState<AppView>('context-picker');
   const [selectedContext, setSelectedContext] = useState<TaskContext | null>(null);
